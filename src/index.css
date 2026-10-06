@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bite-green: #235D5B;
+  --color-bite-green-soft: #2C6864;
+  --color-bite-coral: #926017;
+  --color-bite-cream: #FAF8F1;
+  --color-bite-card: #FFFFFEFA;
+  --color-bite-lilac: #ECF2EC;
+  --color-bite-mint: #E2F0EB;
+  --color-bite-ink: #233B3B;
+  --color-bite-muted: #627370;
+  --color-bite-line: #DDE5DE;
+  --color-bite-pill: #F3EAD5;
+  --color-bite-white: #FFFFFF;
+  --color-bite-ondark: #FFF8E8;
+  --color-bite-ondark-muted: #C1D9D1;
+  --color-bite-error: #9C3F43;
+
+  --font-serif: 'Nunito', 'Playfair Display', Georgia, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #235D5B;
+  color: #233B3B;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDE5DE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #627370;
+}
